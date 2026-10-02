@@ -1,0 +1,28 @@
+# ===== Keil MDK 构建产物（可自动重新生成，不进仓库）=====
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.lnp
+*.htm
+*.dep
+*.scvd
+*.hex
+*.bin
+
+# ===== Keil 工程的个人配置与备份 =====
+*.uvguix.*
+*.uvoptx
+*.bak
+*.Bak
+JLinkLog.txt
+
+# ===== 系统与编辑器垃圾文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
